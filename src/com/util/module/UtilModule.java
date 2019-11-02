@@ -79,24 +79,3 @@ public class UtilModule {
         return result;
     }
 }
-
-/**
- * DictModel.class
- * To create models for the properties od the field to be obtained
- */
-class DictModel {
-
-    private ArrayList<java.io.Serializable> props;
-
-    DictModel(ArrayList<java.io.Serializable> props) {
-        this.props = props;
-    }
-
-    public ArrayList<java.io.Serializable> getProps() {
-        return props;
-    }
-
-    public void setProps(ArrayList<java.io.Serializable> props) {
-        this.props = props;
-    }
-}
